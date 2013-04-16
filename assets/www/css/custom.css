@@ -1,0 +1,138 @@
+.clsDashboardPanel .x-body,.clsSearch .x-body .x-inner,#idSearchNavList .x-body {
+	background:url('../images/noise.png') repeat !important;
+}
+.x-toolbar-light {
+	background: #41A8E7 /*{a-bar-background-color}*/;
+	color: #3E3E3E /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ 0 /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #ffffff /*{a-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #4dc7FF /*{a-bar-background-start}*/), to( #3488bb /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #4dc7FF /*{a-bar-background-start}*/, #3488bb /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #4dc7FF /*{a-bar-background-start}*/, #3488bb /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #4dc7FF /*{a-bar-background-start}*/, #3488bb /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #4dc7FF /*{a-bar-background-start}*/, #3488bb /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #4dc7FF /*{a-bar-background-start}*/, #3488bb /*{a-bar-background-end}*/);
+}
+.x-toolbar-light .x-title {
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	font-size: 20px;
+}
+.x-toolbar.x-docked-top {
+	border-bottom: 0em solid;
+}
+.btnDashboard.x-button {
+	background-color:transparent;
+	background-image:none;
+	border:none;
+}
+.clsTopPanel {
+	margin-top:10%;	
+}
+.clsBottomPanel {
+	margin-top:5%;	
+}
+.imgStyle {
+	height:100px;
+	width:100px;
+}
+.clsSearchPlaces {
+	margin-left:25%;
+	margin-top:1%;	
+}
+.x-msgbox-text .x-innerhtml{
+	color: white;
+}
+.clsPlaceImage,.clsPlaceName,.clsDistance {
+	float:left;	
+}
+.clsDistance {
+	width:20%;	
+}
+.clsDirections {
+	width:80%;
+	float:left;	
+}
+.clsPlaceRating {
+	float:right;	
+}
+.clsPlaceName {
+	margin-top: -8px;
+	margin-left: 15px;
+	width:70%;	
+}
+.clsPlaceImage {
+	margin-top: -3px;
+	width:10%;	
+}
+.clsImg {
+	height:36px;
+	width:36px;	
+}
+.clsName,.placeNameStyle {
+	font-size:18px;	
+}
+.clsAddr,.placeAddrStyle {
+	font-size:14px;	
+}
+span.stars, span.stars span {
+	display:block;
+    background: url(../images/rating.png) 0 0 repeat-x;
+    width: 24px;
+    height: 24px;
+    background-size:100% 100%;
+}
+span.stars span {
+    background-position: 0 0;
+}
+.dvContainer {
+	margin-left:15px;	
+}
+.clsDistance,.clsDirections {
+	font-size: 14px;
+}
+.clsDistance {
+	font-weight:bold;
+	color:green;	
+}
+.clsDivWrapper,.clsContentWrapper {
+	width:100%;
+}
+.clsDirections {
+	height:5em;	
+}
+.clsContentWrapper {
+	height:5em;
+	padding:15px;
+	border: 1px solid #b3b3b3;
+	background: #eeeeee;
+	text-shadow: 0 1px 0 #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #f0f0f0), to( #dddddd));
+	background-image: -webkit-linear-gradient( #f0f0f0, #dddddd );
+	background-image:    -moz-linear-gradient( #f0f0f0, #dddddd );
+	background-image:     -ms-linear-gradient( #f0f0f0, #dddddd );
+	background-image:      -o-linear-gradient( #f0f0f0, #dddddd );
+	background-image:         linear-gradient( #f0f0f0, #dddddd );
+}
+.dvContainer {
+	width:100%;	
+}
+.dvNameWrapper {
+	float:left;
+	width:70%;	
+}
+.dvRatingWrapper {
+	float:right;
+	margin-right: 1.8%;
+	font-size: 16px;
+}
+.clsTimeDuration {
+	float:right;
+	margin-right: 1%;
+	font-size: 16px;
+	font-weight: bold;
+	color: orange;
+}
+#idSearchDetailsNavList {
+	margin-top:2%;	
+}

@@ -1,0 +1,10 @@
+Ext.define('Navigator.controller.SearchListDetailsController',{
+	extend:'Ext.app.Controller',
+	config:{
+		refs:{
+			idSearchListDetails:'searchListDetails'
+		},
+		control:{
+		}
+	}
+});
